@@ -316,7 +316,7 @@ export default function App() {
 
   useEffect(() => {
     // Khởi tạo audio một lần
-    const audio = new Audio("/frad_-_first_date.mp3");
+    const audio = new Audio("/frad-first-date.mp3");
     audio.loop = true;
     audio.volume = 0.35;
     audioRef.current = audio;
@@ -705,4 +705,5 @@ export default function App() {
       </AnimatePresence>
     </div>
   );
+
 }
